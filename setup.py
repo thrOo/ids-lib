@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ids-lib",
-    version="0.0.4",
+    version="0.0.0",
     author="dnk0 <Dennis Kreußel>",
     author_email="dnk0@protonmail.com",
     description="Common functionality and preprocessing for intrusion detection",
