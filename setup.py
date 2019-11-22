@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="ids-lib",
-    version="0.1.2-dev0",
+    version="0.1.3-dev0",
     author="dnk0 <Dennis Kreußel>",
     author_email="dnk0@protonmail.com",
     description="Common functionality and preprocessing for intrusion detection",
