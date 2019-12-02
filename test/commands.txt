@@ -1,0 +1,1877 @@
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/dell-xps-9570-ubuntu-respin/master/xps-tweaks.sh)"
+sudo apt install curl
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/dell-xps-9570-ubuntu-respin/master/xps-tweaks.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/dell-xps-9570-ubuntu-respin/master/xps-tweaks.sh)"
+sudo reboot now
+sudo prime-select query
+$ lspci | grep -i --color 'vga\|3d\|2d'
+optirun glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+sudo prime-select nvidia
+sudo prime-select query
+lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+lspci
+exit
+ls
+mkdir repos
+ls
+cd repos/
+ls
+wget -r https://darkweblinks.org/files
+ls
+cd darkweblinks.org/
+ls
+cd files/
+ls
+cd Books/
+ls
+cd ..
+ls
+wget -r ftp://darkweblinks.org/files
+wget -r https://darkweblinks.org/files/
+ls
+cd ..
+ls
+cd ..
+wget -m -np http://darkweblinks.org/files/
+ls
+cd darkweblinks.org/
+ls
+cd ..
+mv darkweblinks.org/ d_
+ls
+wget -m -np http://darkweblinks.org/files/
+ls
+cd darkweblinks.org/
+ls
+cd files/
+ls
+rm index.html*
+ls
+ssh-keygen -t rsa -b 4096 -C "dnk0@protonmail.com"
+cat ~/.ssh/id_rsa.pub 
+cd ..
+git clone git@git.systemcalls.io:dnk0/books.git
+sudo apt install git
+git clone git@git.systemcalls.io:dnk0/books.git
+ls
+cd books/
+ls
+mdkr books
+mkdir books
+mv * books/
+ls
+mv books/README.md .
+ls
+cd ..
+ls
+cd darkweblinks.org/
+ls
+cd files/
+ls
+cd ..
+mv files/ ~/repos/books/
+ls
+cd ..
+ls
+cd ..
+ls
+cd repos/books/
+ls
+cd files/
+ls
+mv Bitcoin/ ..
+mv hacking/ ..
+mv NetSec/ ..
+mv tor/ ..
+ls
+mv WebSec/ ..
+ls
+mv Unspecified/ ..
+ls
+mv Books/ ..
+ls
+cd ..
+rm -r files/
+ls
+cd Unspecified/
+ls
+cd 
+cd repos/books/
+rm **/*/index*
+rm */**/index*
+ls
+rm */index*
+ls
+ls books/
+ls Unspecified/
+ls
+cd ..
+ls
+rm -rf d_
+rm -rf darkweblinks.org/
+ls
+cd books/
+ls
+vim README.md 
+sudo apt install vim
+vim README.md 
+ls
+cd books/
+ls
+cd ..
+ls
+cd Books/
+ls
+rename "s/ /_/g" *
+sudo apt install rename
+rename "s/ /_/g" *
+ls
+rename "s/ /_/g" *
+ls
+mv O\'Reilly_-_HTTP.pdf  OReilly_HTTP.pdf
+lks
+ls
+mv Browser_Hacker\'s_Handbook\,_The_-_Wade_Alcorn_\&_Christian_Frichot_\&_Michele_Orru.pdf Browser_Hackers_Handbook_The_Alcorn_Christian_Frichot_Michele_Orru.pdf
+ls
+cd ..
+ls
+mv Books/* books/
+ls
+cd Bitcoin/
+ls
+rename "s/ /_/g" *
+ls
+cd ..
+ls
+cd hacking/
+rename "s/ /_/g" *
+ls
+mv Basics_of_Hacking_and_Penetration_Testing\,_The_\(Second_Edition\).epub Basics_of_Hacking_andPenetration_Testing.epub
+ls
+mv bh-eu-12-Be\'ery-FYI_you_got_LFI-WP.pdf FYI_you_got_LFI-WP.pdf
+ls
+mv hack_back\!_a_diy_guide.txt hack_back_a_diy_guide.pdf
+ls
+mv O\'Reilly_-_HTTP_-_The_Definitive_Guide.pdf OReilly_HTTP_The_Definitive_Guide.pdf
+ls
+mv Stealing_the_Network_-_The_Complete_Series_Collector\'s_Edition.pdf Stealing_the_Network_The_Complete_Series(Collectios_Edition).pdf
+mv Stealing_the_Network_-_The_Complete_Series_Collector\'s_Edition.pdf Stealing_the_Network_The_Complete_Series_Collectios_Edition.pdf
+ls
+zathura 43.pdf 
+mv 43.pdf Automate_MITM_Attacks_with_SSL_TLS.pdf
+ls
+cd ..
+hacking/
+cd hacking/
+ls HackBack 
+ls -al
+ls
+cd ..
+ls
+cd NetSec/
+ls
+rename "s/ /_/g" *
+ls
+cd ..
+ls
+cd tor/
+ls
+rename "s/ /_/g" *
+ls
+cd ..~
+ls
+cd Unspecified/
+ls
+rename "s/ /_/g" *
+ls
+mv Lockpicking_Detail_Overkill\[Password\:_evva3ks\].pdf  Lockpicking_Detail_Overkill_Password:evva3ks.pdf
+ls
+cd ..
+ls
+cd WebSec/
+ls
+rename "s/ /_/g" *
+ls
+mv Same_Origin_Method_Execution_\(SOME\)_-_Exploiting_A_Callback_for_Same_Origin_Policy_Bypass.pdf Same_Origin_Method_Execution_A_Callback_for_Same_Origin_Policy_Bypass.pdf
+ls
+cd ..
+ls
+cd Bitcoin/
+ls
+cd ..
+ls
+cd Books/
+ls
+ls -al
+cd ..
+rm -r Books/
+ls
+cd hacking/
+ls
+cd ..
+cd books/
+ls
+mv */* .
+ls
+rename "s/ /_/g" *
+ls
+find . -type d -empty -print
+ls Advanced_Analytics_with_Spark 
+find . -type d -empty -delete
+ls
+ls Visualizing_Streaming_Data
+rm -r Visualizing_Streaming_Data/
+ls
+rm -r Streaming_Systems/
+ls
+rm -r Practical_Tableau/
+ks
+ls
+rm cover.png 
+ls
+ls 
+find . -type d -delete
+find . -type d -exec rm -r {} ';'
+ls 
+rename -n 's/[^a-zA-Z0-9_-]//' "$file"
+ls
+rename -n 's/[^a-zA-Z0-9_-]//' *
+ls
+for file in *; do mv "$file" $(echo "$file" | sed -e 's/[^A-Za-z0-9._-]/_/g'); done &
+ls
+cd ..
+git status
+git add .
+git commit -m "added new books, removed directory structure"
+git config --global user.email "dnk0@protonmail.com"
+git config --global user.name "Dennis Kreußel"
+git config --global user.email "dnk0@protonmail.com"
+git commit -m "added new books, removed directory structure"
+git push origin master
+ls -al
+cd ..
+du
+du -lh
+cd books/hacking/
+ls
+mv HackBack  HackBack.txt
+cd ..
+git add .
+git commit -m "file ext for hackback"
+git push origin master
+ls
+cd ..
+ls
+cd books/
+ls
+git status
+ls
+cd ..
+ls
+lll
+exit
+git clone git@git.systemcalls.io:dnk0/master_thesis.git
+cd master_thesis/
+ls
+. penv/bin/activate
+. nenv/bin/activate
+ls
+cd platform/
+rm -r venv/
+sudo apt-get install python3-distutils
+ls
+rm -r venv/
+ls
+cd ..
+ls
+node
+ls
+node
+cd ..
+ls
+exit
+ks
+ls
+vim app
+vim app.
+vim app.py 
+ls
+dmesg
+snap connect discord:system-observe :system-observe
+snap connect discord:unity7 :unity7
+dmesg
+cd
+git clone https://git.systemcalls.io/dnk0/books
+git clone git@systemcalls.io:dnk0/books.git
+git clone git@git.systemcalls.io:dnk0/books.git
+dmesg
+ls
+cd books/
+git status
+ls
+cd ..
+rm -rf books/
+ls
+cd repos/
+ls
+cd  ids_dashboard/
+ls
+rm -rf node_modules/
+nodeen
+sudo apt install nodeenv
+ls
+nodeenv 
+nodeenv venv
+ls
+rm -rf venv/
+nodeenv venv
+rm -rf venv/
+nodeenv venv -v
+ls
+rm -rf venv/
+sudo apt install virtualenv
+nodeenv venv -v
+nodeenv venv --verbose
+rm -r venv/
+nodeenv venv --verbose
+rm -r venv/
+virtualenv --python=python3.7 penv
+. penv/bin/activate
+ls
+nodeenv nenv
+sudo apt remove nodeenv
+which pip3
+pip install nodeenv
+rm -rf nenv/
+nodeenv nenv
+pip install nodeend
+pip install nodeenv
+which nodeenv
+nodeenv nenv
+nodeenv
+sudo apt purge nodeenv~
+sudo apt autoremove
+nodeenv
+exit
+npm -v
+npm
+ls
+cd repos/ids_dashboard/
+ls
+. penv/bin/activate
+nodeenv
+nodeenv nenv
+ls
+. nenv/bin/activate
+ls
+npm i
+n1
+1
+npm install --save-dev typescript @types/node @types/react @types/react-dom @types/jest @types/react-router-dom
+1
+npm install --save-dev @types/query-string
+git init
+git remote add origin git@git.systemcalls.io:dnk0/savant.git
+lös
+ls
+vim .gitignore
+git add .gitignore 
+git commit -m "added gitignore"
+git push
+git push --set-upstream origin master
+git push
+git status
+vim .gitignore 
+git add .gitignore 
+git commit -m "added jetbrains ide config directory to gitignore"
+git push
+git status
+vim .gitignore 
+git rm --cached .idea/
+git rm --cached -r .idea/
+git status
+git add .idea/
+git commit -m "removed jetbrains config directory"
+git push
+git add .
+git commit -m "init router"
+git push
+vim README.md 
+git add README.md 
+git commit -m "removed uneccessary sections from readme"
+git push origin master
+vim README.md 
+git add README.md 
+git commit -m "README added title"
+git push 
+ls
+cd repos/
+lös
+ls
+cd ids_dashboard/
+ls
+cat ~/.ssh/id_rsa.pub 
+ls
+cd repos/systemcall_tools/
+lös
+ls
+git init
+git remote add origin git@github.com:dnk0/systemcall_tools.git
+git add .gitignore 
+git add README.md 
+git commit -m "Init"
+git push origin master
+ls
+git add setup.py 
+git commit
+ls
+git push origin master
+git add .gitignore 
+git commit -m "added jetbrains project directory to gitignore"
+git push origin master
+git status
+git add systemcall_tools/
+git commit -m "package structure, simple"
+git push origin master
+lks
+ls
+. venv/bin/activate
+python3
+python3 -m setup.py
+python3 setup.py 
+python3 setup.py  install
+python3 
+git status
+git add .gitignore 
+git commit -m "added build files to gitignore"
+git push 
+git push --set-upstream origin master
+git status
+git add .gitignore 
+git comit -m "added pycache to gitignore"§
+git comit -m "added pycache to gitignore"
+git push 
+git commit -m "added pycache to gitignore"
+git push 
+ls
+git status
+git add .gitignore 
+git commit -m "added virtualenv 'venv' to gitignore" 
+git push origin master
+ls
+cd repos/
+ls
+cd repos/
+ls
+cd ids_dashboard/
+ls
+exit
+ls
+mkdir bibl
+ls
+cd bibl/
+ls
+touch main.bib
+ls
+cd .
+ls
+cd ..
+ls
+shutdown now
+ls
+cd repos/l
+cd repos/
+ls
+cd bio
+cd books/
+ls
+cd hacking/
+ls
+zathura Bible_cheatsheet.pdf 
+cd ..
+ls
+cd ..
+ls
+cd master_thesis/
+ssh dev@172.18.171.117
+ls
+cd ..
+ls
+cd bgbgb/
+ls
+npm start
+ls
+virtualenv -p python3 penv
+. penv/bin/activate
+pip install nodeenv
+nodeenv nenv
+. nenv/bin/activate
+ls
+npm i
+npm start
+pip install requests
+npm start
+ls
+ls container.sh 
+chmod +x container.sh 
+./container.sh 
+npm start
+./container.sh 
+docker ps
+sudo docker ps
+sudo docker ps -a
+cat container.sh 
+vim main.js 
+vim renderer.js 
+ls
+docker-compose up
+sudo apt install docker-compose
+docker-compose up
+docker ps
+sudo docker ps
+sudo docker-compose up
+ls
+docker ps -a
+sudo docker ps -a
+sudo docker ps 
+sudo docker-compose up
+sudo docker-compose up -d
+sudo docker ps
+npm start
+top
+npm start
+exi
+exit
+ls
+cd repos/
+l
+git clone git@github.com:LID-DS/ProtoIDS.git
+cd ProtoIDS/
+git checkout 82eeefc8aae44746cb3ad6d7fc9834ebad4e7f97
+git checkout -b master 82eeefc8aae44746cb3ad6d7fc9834ebad4e7f97
+git reset --hard 82eeefc8aae44746cb3ad6d7fc9834ebad4e7f97
+ls
+npm i
+virtualenv -p python3 penv
+. penv/bin/activate
+pip install nodeenv
+nodeenv nenv
+. nenv/bin/activate
+lös
+npm i
+ls
+npm start
+ls
+cd ..
+ls
+git clone https://github.com/dnk0/bgbgb 
+cd bgbgb/
+ls
+npm i
+npm start
+curl -s https://s3.amazonaws.com/download.draios.com/stable/install-sysdig | sudo bash
+ls
+sysdig
+sudo sysdig
+sudo npm start
+npm start
+ls
+pip install r requests
+pip install requests
+ls
+vim renderer.js 
+exit
+top
+exitz
+exit
+ssh dev@172.18.171.117
+curl localhost -p 8080
+curl localhost:8080
+docker ps
+sudo apt install docker.io
+docker ps
+sudo docker ps
+cat container.sh 
+ls
+arandr
+xrandr
+sudo apt install arandr
+arandr
+cd repos/bgbgb/
+ls
+. penv/bin/activate
+. nenv/bin/activate
+npm startz
+npm start
+ls
+sudo docker-compose up -d
+npm start
+sudo apt update
+sudo apt -y upgrade
+sudo apt -y install r-base
+r -V
+rstudio
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.1335-amd64.deb
+ls
+rm rstudio-1.2.1335-amd64.deb 
+ls
+rstudio
+ls
+cd ..
+ls
+dh -u
+zip -r bg.zip bgbgb/
+ls
+ls -al
+wget https://cat.eduroam.org/user/API.php?action=downloadInstaller&api_version=2&lang=en&device=linux&profile=5674
+ls
+ks
+ls
+rm API.php\?action\=downloadInstaller 
+ls
+cat wget-log 
+:q
+wget https://cat.eduroam.org/user/API.php?action=downloadInstaller&api_version=2&lang=en&device=linux&profile=5674
+ls
+rm API.php\?action\=downloadInstaller 
+rm wget-log*
+ls
+cd Downloads/
+python3 eduroam-linux-UL.py 
+rstudio
+cd .
+cd ..
+cd R/
+ls
+rstdui
+rstdioi
+rstdio
+rstudio 
+ls
+mkdir test
+cd test/
+virtualenv -p python3 testenv
+. testenv/bin/activate
+pip install ids-lib
+ls
+python
+pip install ids-lib
+ls
+exit
+cd test/
+rm -r testenv/
+virtualenv -p python3 testenv
+. testenv/bin/activate
+pip install ids-lib
+python
+ls
+cd testenv/
+ls
+cd bin/
+ls
+cd ..
+l
+ls
+cd include/
+ls
+cd ..
+cd lib/
+ls
+cd ..
+cd lib/python3.7/
+ls
+cd site-packages/
+ls
+exit
+cd test/
+rm -r testenv/
+virtualenv -p python3 testenv
+. testenv/bin/activate
+pip install ids-lib
+ls
+python
+exit
+cd test/
+rm -r testenv/
+virtualenv -p python3 env
+. env/bin/activate
+ls
+pip install ids-lib
+python3
+cd ..
+vim README.md 
+vim setup.py 
+cat version
+vim version
+ls
+vim setup.py 
+ls
+bumpversion major; cat version
+sudo apt install bumpversion
+bumpversion major; cat version
+bumpversion minor
+cat version 
+vim .bumpversion.cfg
+bumpversion minor
+ls
+git status
+vim setup.py 
+ls
+vim version 
+ls
+bumpversion minoir
+bumpversion minor
+git statuy
+git status
+git add version setup.py 
+git status
+git commit -m "version file and reset version"
+git push
+git push --set-upstream origin master
+git status
+bumpversion 
+bumpversion minor
+ls version 
+cat version 
+ls
+cat setup.py 
+ls
+vim Makefile
+make clean
+ls
+twine
+exit
+cd
+sudo apt install cmus
+cmus
+mkdir music
+mv Downloads/IN\ FLAMES\ -\ I\ Am\ Above\ \(OFFICIAL\ VIDEO\).mp3 music/
+ls
+cd music/
+ls
+cmus
+mv IN\ FLAMES\ -\ I\ Am\ Above\ \(OFFICIAL\ VIDEO\).mp3 InFlames_IAmAbove.mp3
+ls
+cmus
+ls
+cd repos/
+ls
+mkdir ids-lib
+cd ids-lib/
+ls
+mkdir ids-lib
+cd ids-lib/
+touch __init__.py
+cd ..
+ls
+git init
+touch .gitignore
+touch README.md
+touch setup.py
+touch LICENSE
+vim setup.py 
+vim README.md 
+vim LICENSE 
+python3 -m pip install --user --upgrade setuptools wheel
+virtualenv -p python3 env
+. env/bin/activate
+python3 -m pip install --user --upgrade setuptools wheel
+python3 -m pip install --upgrade setuptools wheel
+python3 setup.py sdist bdist_wheel
+ls
+vim .gitignore 
+python3 -m pip install --user --upgrade twine
+python3 -m pip install --upgrade twine
+python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload dist/*
+ls
+mv ids-lib/ ids_lib
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+vim setup.py 
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+ls
+python3 setup.py sdist bdist_wheel
+ls
+ls dist/
+rm build/
+rm -r build/
+rm -r dist/
+ls
+rm *.egg-info
+ls
+rm -r *.egg-info
+ls
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+vim setup.py 
+mv ids_lib ids-lib
+ls
+mv ids-lib/ ids_lib
+cd ids_lib
+ls
+vim ini
+vim __init__.py 
+ls
+cd ..
+rm -r build/ dist *.egg-info
+ls
+python3 setup.py sdist bdist_wheel
+rm -r build/ dist *.egg-info
+vim setup.py 
+rm -r build/ dist *.egg-info
+python3 setup.py sdist bdist_wheel
+ls
+ls build/
+ls dist/
+twine upload dist/*
+ls
+testcd lid
+cd ids_lib
+vim __init__.py 
+cd ..
+rm -r build/ dist *.egg-info
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+vim setup.py 
+rm -r build/ dist *.egg-info
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+git remote add origin git@github.com:dnk0/ids-lib.git
+git status
+git add .
+git commit -m "init"
+git push origin master
+vim Makefile
+twine
+twine uploade dist/*
+twine upload dist/*
+ls dis
+python3 setup.py build
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+git status
+ls
+vim Makefile 
+make dist
+vim Makefile 
+vim requirements.txt
+ls
+vim setup.py 
+ls
+pip install -r requirements.txt 
+ls
+make clean
+make dist
+bumpversion minor
+git status
+git add setup.py 
+git add .bumpversion.cfg 
+git add Makefile 
+git add requirements.txt 
+git commit -m "improvements to package setup"
+git push
+bumpversion minor
+ls version 
+cat version 
+ls
+git status
+bumpversion down
+git push
+vim version 
+vim setup.py 
+:q
+git add .
+git commit -m "revert bumpversion"
+git push
+vim .bumpversion.cfg 
+git add .
+git commit -m "revert bumpversion"
+git push
+bumpversion patch
+cat version 
+git push
+make clean dist
+make dist
+twine upload dist/*
+ls
+cd test/
+rm -r env/
+virtualenv -p python3
+virtualenv -p python3 env
+. env/bin/activate
+pip install ids-lib
+ls
+cd repos/
+ls
+cd bgbgb/
+ls
+cd ..
+ls
+mv bgbgb/ demo
+ls
+cd demo/
+ls
+clear
+ls
+docker-compose up -d
+sudo docker-compose up -d
+clear
+ls
+npm start
+. penv/bin/activate
+. nenv/bin/activate
+npm start
+vim main.js 
+npm start
+vim mainn.js
+vim main.js
+npm start
+sudo apt-get install ffmpeg
+cd 
+cd vide
+cd Videos/
+ls
+ffmpeg -i Screencast\ from\ 07.11.2019\ 15\:52\:23.webm Screencast_aufnahme_beginnt_im_video.mp4
+ffmpeg -i Screencast\ from\ 07.11.2019\ 15\:53\:53.webm Screencast_no_false_positive.mp4
+ffmpeg -i Screencast\ from\ 07.11.2019\ 15\:54\:22.webm Screencast_with_fp.mp4
+ssh root@systemcalls.io
+ls
+ssh root@systemcalls.io
+ls
+ssh root@systemcalls.io
+ls
+ssh root@systemcalls.io
+ls
+ssh root@systemcalls.io
+cd.
+cd 
+cd Downloads/
+ls
+unzip fontools.zip 
+cd fontools/
+ls
+cd bin/
+,s
+ls
+ls
+cd repos/
+ls
+cd master_thesis/
+ls
+cd ..
+cd 
+cd Downloads/
+ls
+unzip thesis-master.zip 
+ls
+cd thesis-master/
+ls
+cd ..
+mv thesis-master ~/repos/
+ls
+cd 
+cd repos/
+ls
+cd thesis-master/
+ls
+vifm .
+sudo apt install vifm
+vifm .
+make
+sudo apt install pdflatex
+latex
+sudo apt install texlive-latex-base
+sudo apt install texlive-latex-full
+make
+ls
+cat chatter.txt 
+sudo apt install texlive-full
+make
+cat chatter.txt 
+sudo apt search sabon
+sudo apt search latex-sabon
+sudo apt search sabon
+sudo apt search sabon.sty
+sudo apt search lcdf
+sudo apt search lcdf-typetools
+sudo apt install lcdf-typetools
+ls
+~/Downloads/fontools/bin/autoinst *.ttf
+~/Downloads/fontools/bin/autoinst sabon.ttf 
+sudo ~/Downloads/fontools/bin/autoinst *.ttf
+sudo ~/Downloads/fontools/bin/autoinst sabon.ttf 
+sudo ~/Downloads/fontools/bin/autoinst sabon-bolditalic.ttf 
+sudo ~/Downloads/fontools/bin/autoinst sabon-bold.ttf 
+sudo ~/Downloads/fontools/bin/autoinst sabon-regular.ttf 
+sudo ~/Downloads/fontools/bin/autoinst sabon-italic.ttf 
+make
+cat chatter.txt 
+initex --edit-config-file udmap
+make
+cat chatter.txt 
+ls
+cat sabon.log 
+:q
+ls
+ttf2tfm sabon.ttf -q -T T1-WGL4.enc -v ectimes.vpl rectimes.tfm >> ttfonts.map
+ls
+cat ttfonts.map 
+sudo apt remove texlive-full
+sudo apt-get install texlive-xetex 
+sudo apt autoremove
+ls
+mv ~/Downloads/1907.01702 .
+mv ~/Downloads/1907.01702.pdf  .
+ls
+sudo mv ~/Downloads/1907.01702.pdf  .
+lsblk
+sudo umount /dev/sda
+sudo umount /dev/sda1
+sudo mkfs.vfat /dev/sda1
+exit
+cat ~/.ssh/id_rsa.pub 
+ssh root@85.214.202.15
+ssh dev@85.214.202.15
+exit
+sudo apt-get install pdftk
+pdft
+pdftk
+cd /media/dev/gg/
+ls
+pdftk Platon_Werke.pdf cat 87-93 120-130 output nnplaton.pdf
+ls
+ssh dev@85.214.202.15
+ssh root@85.214.202.15
+ssh dev@85.214.202.15
+ssh root@85.214.202.15
+vim .ssh/known_hosts 
+ssh root@85.214.202.15
+ls
+cd repos/
+ls
+mkdir doctl
+ls
+cd doctl/
+git init
+vim doctl.sh
+l
+ls
+git remote add origin git@github.com:dnk0/doctl.git
+git add .
+git commit -m "init"
+git push
+git push --set-upstream origin master
+vim doctl.sh 
+git status
+git add doctl.sh 
+git commit -m "change username to dev"
+git push
+cat ~/.ssh/id_rsa.pub 
+ssh root@85.214.202.15
+ls
+ssh root@85.214.202.15
+s
+ssh root@85.214.202.15
+lsblk
+ssh root@85.214.202.15
+ssh dev@85.214.202.15
+ssh root@85.214.202.15
+wxit
+exit
+ls
+ssh root@85.214.202.15
+ssh root@wasp.li
+exit
+ls
+cd .ssh/
+cat id_rsa.pub 
+exit
+ssh dev@wasp.li
+exit
+cat ~/.ssh/id_rsa.pub 
+ssh root@wasp.li
+exit
+ssh root@wasp.li
+exit
+ping wasp.li
+curl whatsmyip.com
+vim ~/.ssh/known_hosts 
+ssh root@wasp.li
+vim ~/.ssh/known_hosts 
+ssh root@wasp.li
+ls
+ssh root@wasp.li
+ls
+ssh root@wasp.li
+ping wasp.li
+ssh root@wasp.li
+ping wasp.li
+ping wasp.li
+ssh root@wasp.li
+ping 85.214.202.15
+ssh root@wasp.li
+ping 85.214.202.15
+ssh root@wasp.li
+ping 85.214.202.15
+ssh root@wasp.li
+ping 85.214.202.15
+ssh root@wasp.li
+exit
+ssh root@81.169.201.128
+ls
+vim ~/.ssh/known_hosts 
+ssh root@wasp.li
+uname -a
+ssh root@wasp.li
+vim ~/.ssh/known_hosts 
+ssh root@wasp.li
+docker ps -a
+sudo docker ps -a
+exit
+exit
+cd 
+vim jenkins.svg
+exit
+cd repos/
+ls
+npx create-react-app ids-server_frontend
+sudo apt install npm
+sudo apt remove --purge tex-common '^texlive'
+sudo rm -rf /etc/texmf/
+sudo apt install npm
+sudo apt autoremove
+sudo apt install npm
+npx create-react-app ids-server_frontend
+npm start
+npm i -g npm
+sudo npm i -g npm
+npm start
+sudo apt remove npm
+sudo apt update
+sudo apt install nodejs
+sudo apt autoremove
+node -
+node -V
+node --Version
+node --version
+sudo apt install npm
+npx create-react-app ids-server_frontend
+rm -r ids-server_frontend/
+sudo rm -r ids-server_frontend/
+npx create-react-app ids-server_frontend
+cd ids-server_frontend/
+npm start
+git status
+git init
+git remote add origin git@wasp.li:dnk0/ids-server_frontend.git
+git status
+ls
+git push
+git push --set-upstream origin master
+cat ~/.ssh/id_rsa.pub 
+git push --set-upstream origin master
+npm i --save redux @types/redux
+npm install --save react-redux @types/react-redux
+npm run test
+cd ..
+sudo rm -rf ids-server_frontend/
+npx create-react-app ids-server_frontend --typescript
+cd ids-server_frontend/
+ls
+git remote add origin git@wasp.li:dnk0/ids-server_frontend.git
+git push origin master --force
+ls
+npm i --save redux @types/redux
+npm install --save react-redux @types/react-redux
+npm test
+ls
+git status
+git add .
+git commit
+git status
+git push origin master
+ls
+touch Jenkinsfile
+vim Jenkinsfile 
+node -V
+node --version
+vim Jenkinsfile 
+git add Jenkinsfile 
+git commit 
+git push origin master
+vim Jenkinsfile 
+git status
+git pull
+git pull origin master
+git add Jenkinsfile 
+git commit
+exit
+ssh root@wasp.li
+exit
+ssh jenkins@slave.wasp.li
+ssh root@81.169.201.128
+ls
+ssh root@wasp.li
+exit
+exit
+ls
+ssh root@81.169.201.128
+exit
+ls
+cd repos/
+ls
+cd ids-server_frontend/
+ls
+vim Jenkinsfile 
+git add Jenkinsfile 
+git commit
+git push origin master
+ping slave.wasp.li
+reboot now
+vim qualifications.txt
+ls
+vim qualifications.txt 
+exit
+ls
+cd repos/
+ls
+cd ids-server_frontend/
+vim /etc/host
+vim /etc/hosts
+sudo vim /etc/hosts
+ls
+cd repos/
+ls
+cd ids-lib/
+ls
+vifm 
+vifm .
+cd ids_lib
+ls
+mkdir core
+mkdir models
+mkdir helpers
+ls
+mkdir data
+ls
+cd data/
+ls
+touch __init__.py
+ls
+cd ..
+mkdir enums
+ls
+cd core/
+touch __init__.py
+cd ..
+ls
+cd data/
+ls
+cd ..
+cd enums/
+ls
+touch __init__.py
+cd ..
+ls
+cd helpers/
+ls
+touch __init__.py
+ls
+cd ..
+ls
+cd models/
+ls
+touch __init__.py
+cd 
+cd repos/lid
+cd repos/ids-
+cd repos/ids-lib/
+ls
+git status
+git add .
+git commit -m "init structure"
+git push origin master
+ping github.com
+git push origin master
+cat Makefile 
+ls
+vifm .
+make dist
+ls
+cat makefile
+cat Makefile f
+cat Makefile 
+make clean
+make dist
+ls
+. env/bin/activate
+make dist
+ls
+twine upload dist/*
+bumpversion patch
+cat setup.py 
+twine upload dist/*
+make dist
+twine upload dist/*
+cat .bumpversion.cfg 
+bumpversion patch
+cat .bumpversion.cfg 
+make dist
+make clean && make dist
+twine upload dist/*
+vim Makefile 
+git status
+git add Makefile 
+git commit -m "add clean dependency to dist make"
+git push
+ls
+cd env/
+cd ..
+ls
+cd ids_lib
+cd enums/
+ls
+touch models.py
+vim models.py 
+cd ..
+git status
+git add ids_lib/enums/models.py 
+git commit -m "start models enum"
+git push
+reboot now
+sudo reboot now
+ls
+yarn start
+exit
+ls
+cd 
+ls
+vim qualifications.txt 
+ls
+cd repos/
+ls
+mv ids-server_frontend/ ids-server_frontend_old
+create-react-app --typescript ids-server_frontend
+npx create-react-app --typescript ids-server_frontend
+npx run create-react-app --typescript ids-server_frontend
+ls
+yarn
+npm i -g yarn
+sudo npm i -g yarn
+yarn global add @vue/cli
+vue add typescript
+yarn add global vue
+vue add typescript
+yarn global add @vue/cli-service-global
+vue create ids-server_frontend
+vue-cli create ids-server_frontend
+sudo npm install -g @vue/cli
+vue create ids-server_frontend
+cd ids-server_frontend
+ls
+yarn serve
+cd ..
+ls
+mv ids-server_frontend ids-server_frontend_old2
+vue create ids-server_frontend
+ls
+rm -rf ids-server_frontend*
+yarn cypress open
+npm i -g cypress
+sudo npm i -g cypress
+npm i cypress --save-dev
+yarn cypress open
+ls
+cd ids-server_frontend/
+ls
+yarn add cypress cypress-cucumber-preprocessor
+ls
+yarn cypress open
+ls
+ls -al
+yarn cypress open
+ls
+cd ..
+mv ids-server_frontend/ ids-server_frontend_old
+ls
+cp ~/Downloads/cypressioCucumberExample-master.zip .
+unzip cypress
+unzip cypressioCucumberExample-master.zip 
+ls
+rm -r cypress
+ls
+rm cypress
+rm cypress.json 
+rm package
+rm package.json 
+ls
+rm *.zip
+ls
+rm yarn.lock 
+rm package-lock.json 
+ls
+rm -r node_modules/
+ls
+mv cypressioCucumberExample-master/ ids-server_frontend
+cd ids-server_frontend
+yarn cypress open
+yarn
+yarn cypress open
+cat package.json 
+yarn add dev cypress
+yarn add-dev cypress
+yarn add --dev cypress
+yarn cypress open
+cd ..
+mv ids-server_frontend
+mv ids-server_frontend test-cucumber-cypress
+ls
+npx create-react-app --typescript ids-server-frontend
+ls
+npx create-react-app ids-server_frontend --typescript
+cd ids-server_frontend
+ls
+yarn add react-router-dom
+ls
+cd ..
+rm -rf ids-server_frontend
+npx create-react-app ids-server_frontend --typescript
+cd ids-server_frontend
+ls
+git init
+git remote add origin git@wasp.li:ids_devs/ids-server_frontend.git
+git status
+git push origin master
+yarn add react-router-dom @types/react-router-dom
+ls
+yarn start
+yarn add --dev mocha chai
+ls
+yarn add --dev @types/mocha @types/chai
+ls
+yarn test unit
+yarn test:unit
+yarn test:coverage
+mkdir test
+cd test/
+vim index.spec.ts
+yarn add --dev enzyme @types/enzyme
+cd ..
+rm -rf ids-server_frontend
+npx create-react-app ids-server_frontend --typescript
+cd ids-server_frontend
+ls
+git remote add origin git@wasp.li:ids_devs/ids-server_frontend.git
+git push origin master --force
+yarn add redux @types/redux
+yarn add react-redux @types/react-redux
+npm run test
+cat package.json 
+mkdir test
+ls
+yarn cypress open
+yarn cypress:open
+yarn add --dev cypress
+yarn cypress:open
+rm -r cypress
+ls
+rm cypress.json 
+yarn cypress:open
+ls
+yarn cypress:open
+ls
+mv cypress test/
+cd test/
+ls
+ls e2e/
+ls
+rm -r e2e/
+mv cypress/ e2e
+ls
+cd ..
+yarn cypress:open
+ls
+git status
+git add .gitignore
+git commit -m "add jetbrains ide config to gitignore"
+git push
+git push --set-upstream origin master
+git add package.json yarn.lock test/ cypress.json 
+git statuy
+git status
+git commit
+git status
+git push
+cd  ids_lib/visualization/
+ls
+python3 graph.py 
+cd 
+cd repos/ids-lib/
+ls
+python3 test
+python3 test.py 
+ls
+python3 test.py 
+git status
+git add ids_lib/
+make clean
+git status
+vim .gitignore 
+git status
+git .gitignore
+git add .gitignore 
+git add test.py 
+vim .gitignore 
+git status
+git add .
+git commit -m "implemented pretty graph for result array"
+git push
+ls
+cd repos/
+ls
+cd ids-lib/
+ls
+cd ids_lib
+cd visualization/
+l
+python3 graph.py
+pip3 install numpy
+sudo apt install python3-pip
+pip3 install numpy
+python3 graph.py
+pip3 install matplotlib
+python3 graph.py
+cd ..
+c d..
+cd ..
+ls
+python3 setup.py install
+pip3 install setuptools
+python3 setup.py install
+sudo python3 setup.py install
+ls
+cd repos/ids_dashboard/
+cd ..
+ls
+cd ids-lib/
+ls
+python3 -i
+ls
+python3 setup.py install
+sudo python3 setup.py install
+python3 -i
+python3 setup.py install
+sudo python3 setup.py install
+python3 -i
+ls
+cat test.json 
+rm test.json 
+cd ~
+ls
+cd .cache/
+ls
+cd fontconfig/
+ls
+cd ..
+ls
+cd electron/
+ls
+cat SHASUMS256.txt-5.0.4 
+cd ..
+ls
+cd 
+cd repos/
+ls
+cd ids-lib/
+ls
+python3 setup.py install
+sudo python3 setup.py install
+ls
+python3
+sudo python3 setup.py install
+python3
+vim test2.py
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+vim test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+sudo python3 setup.py install
+python3 test2.py 
+ls
+ls -al
+cat ANY_5805b8c1e3d0c8f8afab6093c81b72a18ae5f3e8c73ca52a5663804370fbee6c.json 
+rm ANY_*
+ls
+python3 test2.py 
+ls
+cd ~
+ls
+ls .cache/
+cd repos/ids-lib/
+ls
+ls \~
+ls
+ls -al
+ls \~/
+ls
+ls \~/
+cd \~/
+ls
+ls -al
+cd ..
+sudo python3 setup.py install
+python3 test2.py 
+ls
+python3 test2.py 
+python3 -i
+python3 test2.py 
+top
+:q
+python3 test2.py 
+[A
+python3 test2.py 
+git status
+git add ids_lib/
+git commit -m "implemented caching functionality and metric calculation for caching"
+git push
+ls
+sudo apt-get install build-essential cmake git unzip pkg-config libopenblas-dev liblapack-dev
+sudo apt-get install libhdf5-serial-dev python-h5py
+sudo apt-get install graphviz
+sudo pip3 install pydot-ng
+sudo apt-get install python-opencv
+sudo pip3 install tensorflow
+sudo apt-get install build-essential cmake git unzip pkg-config libopenblas-dev liblapack-dev
+sudo apt-get install python-testresources
+sudo pip3 install tensorflow
+cd repos/ids-lib/
+ls
+cd test/
+unzip CVE-2017-7529.zip 
+ls
+rm CVE-2017-7529.zip 
+ls
+cd CVE-2017-7529/
+ls
+cat mango_
+cat mango_dijkstra_9472.txt 
+43354 17:05:40.082748256 1 101 nginx 18709 > epoll_wait maxevents=512 
+cat mango_dijkstra_9472.txt | awk '{ print $2 }'
+cat mango_dijkstra_9472.txt | awk '{ print $5 }'
+cat mango_dijkstra_9472.txt | awk '{ print $6 }'
+cat mango_dijkstra_9472.txt | awk '{ print $6 $8}'
+cat mango_dijkstra_9472.txt | awk '{ print $6 ' ' $8}'
+cat mango_dijkstra_9472.txt | awk '{ print $1 $6 $8}'
+cat mango_dijkstra_9472.txt | awk '{ print $2 $6 $8}'
+cat mango_dijkstra_9472.txt | awk '{ print $2,$6,$8}'
+ls -C
+ls -C | cat 
+find . -type f -exec cat {} \;
+find . -type f -exec cat {} \;ls
+ls
+vim runs.csv 
+ls
+find *.txt -type f -exec cat {} \;
+ls
+cat runs.csv 
+cat runs.csv | awk '{ print $2,$6,$8}'
+cat runs.csv | awk '{ print $8 }'
+cat runs.csv | awk '{ print $7 }'
+cat runs.csv | awk '{ print $4 }'
+cat runs.csv | awk '{ print $5 }'
+cat runs.csv | awk '{ print $6 }'
+cat runs.csv | awk '{ print $1 $6 }'
+cat runs.csv | awk '{ print $2 $6 }'
+cat runs.csv | awk '{ print $2, $6 }'
+cat runs.csv | awk '{ print $2,$6 }'
+cat runs.csv | awk '{ print $2,$6 }' > isfileexploit.txt
+cat isfileexploit.txt 
+head isfileexploit.txt 
+vim isfileexploit.txt 
+ls
+vim isfileexploit.txt 
+vim isfileexploit.txt | sort
+cd repos/ids-lib/
+ls
+cd test/
+ls
+cd CVE-2017-7529/
+ls
+cat isfileexploit.txt | sort
+cat isfileexploit.txt | sort -k 2 
+cat isfileexploit.txt | sort -k 3 
+cat isfileexploit.txt | sort -k 1
+cat isfileexploit.txt | sort -u -k 3,3
+cat isfileexploit.txt | sort -g -k 3
+cat isfileexploit.txt | sort -g -k 2
+cat isfileexploit.txt | sort -g -k 2 > sortedisexploit.txt
+cat sortedisexploit.txt 
+vim sortedisexploit.txt 
+head -n 200 sortedisexploit.txt 
+head -n 200 sortedisexploit.txt | wc -l 
+head -n 200 sortedisexploit.txt | awk '{ print $1 }'
+head -n 200 sortedisexploit.txt | awk -F'[, ]' '{ print $1 }'
+head -n 200 sortedisexploit.txt | awk -F'[, ]' '{ print $1 }' > training.txt
+vim training.txt 
+cat training.txt  | wc -k
+cat training.txt  | wc -l
+tail -n +201 sortedisexploit.txt 
+tail -n +201 sortedisexploit.txt  > test.txt
+less test.txt 
+less sortedisexploit.txt 
+less training.txt 
+ls
+cat text.tx
+cat text.txt
+cat test.txt
+grep -o '-1' test.txt 
+cut -f test.txt 
+cat test.txt | cut -f2
+:q
+cat test.txt | awk -F"," '{ if (($2==-1)) print;  }'
+cat test.txt | awk -F"," '{ if (($2==-1)) print;  }' > test_normal.txt
+cat test.txt | awk -F"," '{ if (($2!=-1)) print;  }' > test_annomalous.txt
+vim test_annomalous.txt 
+cat test_* | wc -l
+cat runs.csv | wc -l
+ls
+LS
+cat test.txt | awk -F"," '{ if (($2!=-1)) print $1;  }' > test_annomalous_filenames.txt
+vim test_annomalous_filenames.txt 
+cat test.txt | awk -F"," '{ if (($2==-1)) print $1;  }' > test_normal_filenames.txt
+ls
+cat test_normal_filenames.txt 
+ls
+ls -alk
+mv test_*_filenames.txt
+ls
+ls test_*_filenames.txt
+ls test*
+cat test.txt | awk -F"," '{ if (($2!=-1)) print $1;  }' > test_annomalous_filenames.txt
+cat test.txt | awk -F"," '{ if (($2==-1)) print $1;  }' > test_normal_filenames.txt
+ls test_*_filenames.txt
+mv test_annomalous_filenames.txt test_filenames_anomalous.txt
+mv test_normal_filenames.txt test_filenames_normal.txt
+cat test.txt | awk -F"," '{ if (($2==-1)) print $2;  }' > test_ts_normal.txt
+cat test.txt | awk -F"," '{ if (($2!=-1)) print $2;  }' > test_ts_anomalous.txt
+cat test_ts_* | wc -l
+cat test_filen_* | wc -l
+cat test_filen* | wc -l
+ls
+cat test_filenames_normal.txt 
+cat $(cat test_filenames_normal.txt)
+cat $(cat test_filenames_normal.txt).txt
+cat test_filenames_normal.txt 
+cat test_filenames_normal.txt | xargs -I{} cat {}
+cat test_filenames_normal.txt | xargs -I{} cat {}.txt |
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {} | awk '{print $2, $6, $8}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print $2, $6, $8}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print $2, $6}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print;}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print $1;}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print $1}'"
+cat test_filenames_normal.txt | xargs -I{} sh -c "cat {}.txt | awk '{print $2}'"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk '{print $2}' "
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk '{print $2;}'"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk -F', ' '{}'"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk -F', ' '{print ;}'"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk -F', ' '{print $5}'"
+cat test_filenames_normal.txt | xargs -I[] sh -c "cat [].txt | awk -F', ' '{print $4}'"
+cat test_filenames_normal.txt | xargs -I FILE sh -c "cat FILE.txt | awk -F', ' '{print $4}'"
+cat test_filenames_normal.txt | xargs -I FILE sh -c "cat FILE.txt" | awk '{print $4'}
+cat test_filenames_normal.txt | xargs -I FILE sh -c "cat FILE.txt" | awk '{print $6'}
+cat test_filenames_normal.txt | xargs -I FILE sh -c "cat FILE.txt | wc -l"
+ls
+cat faithful_goodall_8706.txt | wc -l
+ls
+cat test_filenames_normal.txt | xargs -I FILE sh -c "cat FILE.txt | awk '$3'"
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk "$3"'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk "{print $3}"'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk "{print $2}"'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $1}'\'' {} | uniq'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $1}'\'' | uniq'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $6}'\'' | uniq'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $4}'\'' | uniq'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $5}'\'' | uniq'
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $5}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $8}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $5, $8}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $6, $8}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $2 $6, $8}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $2, $6, $8}'\'''
+cat test_filenames_normal.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $2, $6, $8}'\'' > FILE_filtered.txt'
+ls *_filtered.txt
+ls *_filtered.txt | wc -l 
+cat test_filenames_anomalous.txt | xargs -I FILE sh -c 'cat FILE.txt | awk '\''{print $2, $6, $8}'\'' > FILE_filtered.txt'
+ls *_filtered.txt | wc -l 
+cat *_filtered.txt
+s
+ls
+cd ..
+cd CVE-2017-7529/
+mkdir filtered
+mv *_filtered.txt filtered/
+ls filtered/ | wc -l
+cd ..
+python3 test3.py 
+pip3 install keras
+python3 test3.py 
+python3 test3.py | head
+python3 test3.py
+python3 test3.py | sort 
+python3 test3.py
+python3 test3.py | wc -l
+python3 test3.py | sort
+python3 test3.py
+exit
+cd repos/ids-lib/
+ls
+cd test/
+python3 test3.py 
+clear
+python3 test3.py 
+python3 test3.py --dir .
+python3 test3.py --file CVE-2017-7529/drab_kapitsa_1887.txt 
+python3 test3.py --file CVE-2017-7529/drab_kapitsa_1887.txt  --n 3
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+less out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+vim out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+vim out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+vim out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+vim out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3 > out.test.txt
+vim out.test.txt 
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 3
+python3 test3.py --file CVE-2017-7529/filtered/drab_kapitsa_1887_filtered.txt  --n 100
+python3 test3.py --dir CVE-2017-7529/filtered/ --n 5
+python3 test3.py --dir CVE-2017-7529/ --n 5
+w
+....
+python3 test3.py --dir CVE-2017-7529/ --n 5
+python3
+exit
