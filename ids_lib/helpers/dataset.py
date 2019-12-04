@@ -1,11 +1,11 @@
 import tempfile, os
 from pick import pick
-from ftplib import FTP_TLS
+from ftplib import FTP
 from datetime import datetime
 
 def find_recording(scenario_name, recording_name):
-    ftp = FTP_TLS('systemcalls.io')
-    ftp.login('idslib','cH&rQ]M<PZ5PyeYRe#cc@]Xu\<MH?,S,C5gaMgcEh6t6')
+    ftp = FTP('systemcalls.io')
+    ftp.login()
 
     # Get All Files
     files = ftp.nlst()
