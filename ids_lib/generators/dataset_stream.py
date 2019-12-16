@@ -35,9 +35,8 @@ def load_dir(path, start=0, count=None):
 
             for line in lines[start:count]:
                 split = [x.strip() for x in line.split(",")]
-                yield split[1] + ".txt"
-                #for x in load_file(os.path.join(path, split[1] + ".txt")):
-                #    yield x
+                for x in load_file(os.path.join(path, split[1] + ".txt")):
+                    yield x
     else:
         for file in os.listdir(path):
             if file.endswith(".txt"):
