@@ -18,7 +18,12 @@ def exclude_filter(item, exclude_filters):
     """
     try:
         for column, exclude in exclude_filters.items():
-            if item[column] == exclude:
+            if type(exclude) == list:
+                for exclude_item in exclude:
+                    if item[column] == exclude_item:
+                        return False
+
+            elif item[column] == exclude:
                 return False
         return True
     except IndexError:
