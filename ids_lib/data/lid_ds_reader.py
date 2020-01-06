@@ -44,6 +44,8 @@ class LIDDSTextReader:
          path : str
             directory path, where the recorded txt-files and the runs.csv lie
         """
+        if not os.path.isdir(path):
+            raise NotADirectoryError
 
         self.path = path
         self.normal_files = []
@@ -67,7 +69,7 @@ class LIDDSTextReader:
         except FileNotFoundError:
             print("runs.csv not found")
 
-        print("dataset initialized( normal: "
+        print("dataset reader initialized( normal: "
               + str(len(self.normal_files))
               + " attack: "
               + str(len(self.attack_files)) + ")")
